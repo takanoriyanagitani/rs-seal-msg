@@ -1,0 +1,13 @@
+[package]
+name = "rs-seal-msg"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.aes-gcm]
+version = "0.10.3"
+default-features = false
+features = [
+	"aes",
+	"alloc",
+	"getrandom",
+]
